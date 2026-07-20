@@ -10,7 +10,6 @@ Projet personnel réalisé en autodidacte, dans le cadre d'une reconversion vers
 
 - En ligne : [cocon-lacte.github.io](https://AuroreDa.github.io/cocon-lacte/)
 - En local : cloner le dépôt, puis ouvrir `index.html` dans un navigateur (ou utiliser l'extension "Live Server" de VS Code pour un rechargement automatique).
-
 ## Stack technique
 
 HTML5 / CSS3 en vanilla, sans framework ni préprocesseur. Un peu de JavaScript prévu pour la suite (menu, formulaire de contact) mais pas encore nécessaire à ce stade.
