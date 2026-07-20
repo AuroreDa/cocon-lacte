@@ -65,6 +65,16 @@ ul#menu {
   justify-content: center;
 }
 
+#menu a {
+  color: var(--couleur-body);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#menu a:hover {
+  text-decoration: underline;
+}
+
 .bloc-qui-suis-je {
   display: flex;
   align-items: center;
@@ -89,6 +99,20 @@ margin-bottom: 0px;
   max-width: 400px;
   border-radius: 12px;
 }
+
+address {
+  font-style: normal;
+}
+
+address a {
+  color: var(--couleur-secondaire);
+  text-decoration: none;
+}
+
+address a:hover {
+  text-decoration: underline;
+}
+
 
 @media (max-width: 600px) {
   .bloc-qui-suis-je {
