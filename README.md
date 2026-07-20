@@ -8,7 +8,7 @@ Projet personnel réalisé en autodidacte, dans le cadre d'une reconversion vers
 
 ## Voir le site
 
-- En ligne : *(lien GitHub Pages à ajouter une fois activé dans les paramètres du dépôt)*
+- En ligne : [cocon-lacte.github.io](https://AuroreDa.github.io/cocon-lacte/)
 - En local : cloner le dépôt, puis ouvrir `index.html` dans un navigateur (ou utiliser l'extension "Live Server" de VS Code pour un rechargement automatique).
 
 ## Stack technique
@@ -29,13 +29,14 @@ HTML5 / CSS3 en vanilla, sans framework ni préprocesseur. Un peu de JavaScript 
 
 Le site est fonctionnel mais pas terminé. Ce qui reste à faire :
 
-- Textes définitifs des sections Services et Contact
+- Contenu de la section Services (texte définitif)
 - Section "catalogue de professionnels partenaires" — en attente de confirmation du consentement de chaque personne citée avant publication
 - Section tarifs et carte cadeau
 - Espacement entre les sections (finitions de mise en page)
 - Intégration du logo dans le HTML (actuellement uniquement dans `images/`)
-- Interactivité JavaScript légère (menu, formulaire de contact)
-- Déploiement sur GitHub Pages
+- Interactivité JavaScript légère (menu, vrai formulaire de contact en remplacement des liens directs actuels)
+
+Déjà en place : section Contact avec email, téléphone et lien Instagram cliquables ; site déployé sur GitHub Pages.
 
 ## Structure du projet
 
