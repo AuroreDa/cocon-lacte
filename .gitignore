@@ -1,0 +1,7 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Éditeur (VS Code) — paramètres locaux, pas à partager
+.vscode/

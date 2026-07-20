@@ -1,0 +1,100 @@
+:root {
+  --couleur-paragraphe: #B7575F;
+  --couleur-fond: #FFFFFF;
+  --couleur-body: #4A3B38;
+  --couleur-secondaire: #C98C56;
+  --couleur-titre: #E9686F;
+}
+
+
+body {
+  color: var(--couleur-body);
+  background-color: var(--couleur-fond);
+  font-family: 'Quicksand', sans-serif;
+}
+
+p {
+  color: var(--couleur-paragraphe);
+  text-align: center;
+
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  color: var(--couleur-titre);
+  text-align: center;
+  font-size: 4rem;
+}
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  color: var(--couleur-titre);
+  text-align: center;
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: 'Dancing Script', cursive;
+  color: var(--couleur-secondaire);
+  text-align: center;
+  font-size: 2rem;
+}
+
+.conteneur {
+  display: flex;
+  justify-content: center;   /* répartition horizontale des items */
+  align-items: center;       /* alignement vertical des items */
+  gap: 20px;                 /* espace entre chaque item */
+}
+
+ul#menu {
+  list-style-type: none; /* Supprime les puces de la liste */
+  padding: 0;            /* Supprime le padding par défaut */
+  margin: 0;             /* Supprime la marge par défaut */
+  display: flex;         /* Affiche les éléments de la liste en ligne */
+  gap: 20px;             /* Espace entre les éléments de la liste */
+}
+
+.bandeau-nuage {
+  background-image: url('images/bandeau-nuage.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 200px;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+
+.bloc-qui-suis-je {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  padding-top: 0px;
+  max-width: 600px;
+  margin: 0 auto;   /* centre le bloc horizontalement dans la section */
+  gap: 20px;        /* espace entre la photo et le texte */
+}
+
+.texte-qui-suis-je p {
+  text-align: left;
+  color: var(--couleur-paragraphe);
+}
+
+.h3-qui-suis-je {
+margin-bottom: 0px;
+}
+
+.photo-presentation {
+  max-width: 400px;
+  border-radius: 12px;
+}
+
+@media (max-width: 600px) {
+  .bloc-qui-suis-je {
+    flex-direction: column;
+  }
+  .photo-presentation {
+    max-width: 100%;
+  }
+}
